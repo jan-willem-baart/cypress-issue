@@ -6,7 +6,11 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "e2e": "ng e2e",
+    "cypress:open": "cypress open",
+    "cypress:run": "cypress run",    
+    "cy:open:cmpnt": "cypress open --component"
   },
   "private": true,
   "dependencies": {
@@ -28,6 +32,7 @@
     "@angular-devkit/build-angular": "^16.2.1",
     "@angular/cli": "~16.2.1",
     "@angular/compiler-cli": "^16.2.0",
+    "@cypress/schematic": "^2.5.0",
     "@types/jasmine": "~4.3.0",
     "@typescript-eslint/parser": "^6.5.0",
     "eslint": "^8.48.0",
@@ -38,6 +43,7 @@
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
     "prettier": "^3.0.3",
-    "typescript": "~5.1.3"
+    "typescript": "~5.1.3",
+    "cypress": "latest"
   }
 }
