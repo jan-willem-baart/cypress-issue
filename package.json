@@ -10,7 +10,7 @@
     "e2e": "ng e2e",
     "cypress:open": "cypress open",
     "cypress:run": "cypress run",
-    "cy:open:cmpnt": "cypress open --component"
+    "cy:open:cmpnt": "cypress open --component --browser electron"
   },
   "private": true,
   "dependencies": {
